@@ -1,0 +1,15 @@
+.li {
+    cursor: pointer;
+    border-bottom: 1px solid #656665;
+    padding: 0.2em;
+}
+
+.li:last-child {
+    border-bottom: none;
+}
+
+
+.link {
+    color: #656665;
+    background: #ffffff;
+}

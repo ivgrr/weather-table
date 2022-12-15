@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.table {
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 0.5em;
+    background: #ECE9E0;
+    color: #656665;
+    border: 16px solid #ECE9E0;
+    border-radius: 0.8em;
+    width: 30%;
+    height: 30%;
+}
+
+.th {
+    font-size: 1em;
+    padding: 0.5em 1em 0 0.2em;
+}
+
+.error {
+    color: #b90202;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+}
